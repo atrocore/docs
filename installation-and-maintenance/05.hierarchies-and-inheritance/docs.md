@@ -1,8 +1,10 @@
-# Entities
+---
+title: Inheritance
+taxonomy:
+    category: docs
+---
 
 <!-- давай тут описувати механіз роботи з сутностями, потім про типи сутностей, і уже потім про ієрархії і наслідування -->
-
-# Inheritance
 
 For every entity in your AtroPIM you can choose to have relation between entities. This will include children-parent relationship. To add new or edit existing go to Administration/Entities. For this example we will use "Products" (see picture below). You may want to create imaginable products first, and then create product variants, that are real store products. For example, we may have dozens of blue shirts with different materials and sizes, but otherwise they are different variants of the same product. To do and organize it easily you would like product inheritance. Thus way imaginable blue shirt will be parent product and real products will be its children.
 

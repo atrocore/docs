@@ -1,4 +1,8 @@
-# Module Installation
+---
+title: Module Installation
+taxonomy:
+    category: docs
+---
 
 Prior to installation, make sure that the module has the **available** status. 
 

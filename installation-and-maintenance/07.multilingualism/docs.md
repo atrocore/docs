@@ -1,4 +1,8 @@
-## Multilingualism
+---
+title: Multilingualism
+taxonomy:
+    category: docs
+---
 
 ### Configuration 
 
