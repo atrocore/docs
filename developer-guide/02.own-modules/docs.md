@@ -7,7 +7,7 @@ Example module we refer to in this guide can be found here: https://github.com/a
 ## Module structure
 Module consist of backend and frontend parts.
 
-![Module structure](./_assets/module-creating/module-structure.png)
+![Module structure](./_assets/module-structure.png)
 
 As you can see module consist of two main folders - `app`, where the backend part is stored, and `client` - where the frontend part is stored. The root module folder should contain composer file with all information about the module as well as all its dependencies and may contain any other files such as markdown files, git files, etc.
 
@@ -203,7 +203,7 @@ In your git or other VCS repository add and commit the `composer.json` file. Str
 
 To be able to install the module you need to create its first release.
 
-![Release create](./_assets/module-creating/git-releases.png)
+![Release create](./_assets/git-releases.png)
 
 Then you need to add the repository containing your module. If your module is stored in a public GitHub repository, add next block in `repositories` section in the `composer.json` file:
 
@@ -235,10 +235,10 @@ where `username` - is your GitHub username, `usertoken` - is your personal acces
 
 Now in the project `composer.json` file in `require` section add your module package name.
 
-![Adding depandency](./_assets/module-creating/adding-dependency-on-module.png)
+![Adding depandency](./_assets/adding-dependency-on-module.png)
 
 If you open Module Manager (`Administration > System > Update & Modules`) you will see that your module is prepared to be installed.
 
-![Prepare for install](./_assets/module-creating/module-manager-dependency.png)
+![Prepare for install](./_assets/module-manager-dependency.png)
 
 Click on Install and Update button or run `php composer.phar update` command from terminal to initiate the process. Your module will be installed and the system will be updated. If some error occurs during installation please check the logs in the folder `data/logs` for more detailed information.
