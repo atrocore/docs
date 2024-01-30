@@ -4,6 +4,8 @@ taxonomy:
     category: docs
 ---
 
+[Dashboard](https://help.atrocore.com/atrocore/installation)
+
 Dashboards are designed for quick navigation within the AtroCore entities data displayed on separate dashlets. The dashboard is the starting page of AtroCore that can be reached any time via clicking the `AtroCore` logo located in the upper left corner of the AtroCore pages:
 
 ![Dashboard](./_assets/dashboard-interface.jpg)
